@@ -1,0 +1,125 @@
+body {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+.wrapper {
+  background-image: linear-gradient(
+    to bottom left,
+    #020104 0%,
+    black 51%,
+    rgb(7, 6, 6) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+}
+.mosque {
+  margin: auto;
+  position: absolute;
+  top: 10;
+  left: 0;
+  bottom: 0;
+  right: 30;
+  width: 50vw;
+  height: 50vw;
+  z-index: 2;
+}
+.base {
+  margin: auto;
+  position: absolute;
+  top: 10;
+  left: 0;
+  bottom: 0;
+  right: 30;
+  width: 55vw;
+  height: 3vw;
+  background-image: linear-gradient(to left, #312318 0%, #422f21 100%);
+  z-index: 3;
+}
+@media (min-width: 1000px)
+{
+    .mosque{
+        width: 30vw;
+        height: 30vw;
+    }
+    .base{
+        width: 35vw;
+        height: 2vw;
+    }
+}
+@media (min-width: 800px)
+{
+    .mosque{
+        width: 35vw;
+        height: 35vw;
+    }
+    .base{
+        width: 35vw;
+        height: 2vw;
+    }
+}
+.stars,
+.twinkling {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.cloud-1 {
+  position: absolute;
+  top: -40vh;
+  bottom: 100px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.cloud-2 {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.stars {
+  background: url(http://www.script-tutorials.com/demos/360/images/stars.png)
+    repeat top center;
+  z-index: 0;
+}
+.twinkling {
+  background: transparent
+    url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat
+    top center;
+  z-index: 1;
+  animation: twicks 200s linear infinite;
+}
+.cloud-1,
+.cloud-2 {
+  background: transparent url(./clouds3.png) no-repeat;
+  z-index: 4;
+  animation: cloud-movement 100s linear infinite;
+}
+@keyframes twicks {
+  from {
+    background-position: 0, 0;
+  }
+  to {
+    background-position: -10000px, 5000px;
+  }
+}
+@keyframes cloud-movement {
+  0% {
+    background-position: 0, 0;
+  }
+  50% {
+    background-position: -2000px ,0;
+  }
+}
