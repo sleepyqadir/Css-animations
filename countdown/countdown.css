@@ -1,0 +1,509 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.wrapper {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+.countdown {
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0px;
+}
+ul {
+  position: relative;
+  display: flex;
+}
+li {
+  display: flex;
+  float: left;
+  width: 5vh;
+  height: 5vh;
+  margin: 5px 5px -8px 5px;
+  background-color: brown;
+}
+/* col 1 ///////////////////////////////////////////////// */
+.col1-box1 {
+  animation: col1-box1 10s linear infinite;
+}
+@keyframes col1-box1 {
+  0% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  1% {
+    background-color: brown;
+  }
+  10% {
+    background-color: brown;
+  }
+  100% {
+    background-color: brown;
+  }
+}
+.col1-box2 {
+  animation: col1-box2 10s linear infinite;
+}
+@keyframes col1-box2 {
+  0% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  1% {
+    background-color: brown;
+  }
+  10% {
+    background-color: brown;
+  }
+  40% {
+    background-color: brown;
+  }
+  41% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  50% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  51% {
+    background-color: brown;
+  }
+  60% {
+    background-color: brown;
+  }
+  100% {
+    background-color: brown;
+  }
+}
+.col1-box3 {
+  animation: col1-box3 10s linear infinite;
+}
+@keyframes col1-box3 {
+  0% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  1% {
+    background-color: brown;
+  }
+  10% {
+    background-color: brown;
+  }
+  11% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  20% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  21% {
+    background-color: brown;
+  }
+  30% {
+    background-color: brown;
+  }
+  100% {
+    background-color: brown;
+  }
+}
+
+/* col 2 ///////////////////////////////////////////////// */
+
+.col2-box1 {
+  animation: col2-box1 10s linear infinite;
+}
+@keyframes col2-box1 {
+  0% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  1% {
+    background-color: brown;
+  }
+  10% {
+    background-color: brown;
+  }
+  11% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  20% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  40% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  41% {
+    background-color: brown;
+  }
+  70% {
+    background-color: brown;
+  }
+  71% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  80% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  81% {
+    background-color: brown;
+  }
+  100% {
+    background-color: brown;
+  }
+}
+
+.col2-box2 {
+  animation: col2-box2 10s linear infinite;
+}
+@keyframes col2-box2 {
+  0% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  10% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  11% {
+    background-color: brown;
+  }
+  20% {
+    background-color: brown;
+  }
+  21% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  40% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  100% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+}
+
+.col2-box3 {
+  animation: col2-box3 10s linear infinite;
+}
+@keyframes col2-box3 {
+  0% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  1% {
+    background-color: brown;
+  }
+  10% {
+    background-color: brown;
+  }
+  11% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  20% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  21% {
+    background-color: brown;
+  }
+
+  50% {
+    background-color: brown;
+  }
+  51% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+
+  70% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  71% {
+    background-color: brown;
+  }
+  80% {
+    background-color: brown;
+  }
+  100% {
+    background-color: brown;
+  }
+}
+/* col 3 ///////////////////////////////////////////////// */
+
+.col3-box1 {
+  animation: col3-box1 10s linear infinite;
+}
+@keyframes col3-box1 {
+  0% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  1% {
+    background-color: brown;
+  }
+  10% {
+    background-color: brown;
+  }
+  11% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  20% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  21% {
+    background-color: brown;
+  }
+  70% {
+    background-color: brown;
+  }
+  71% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  80% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  81% {
+    background-color: brown;
+  }
+  100% {
+    background-color: brown;
+  }
+}
+
+.col3-box2 {
+  animation: col3-box2 10s linear infinite;
+}
+@keyframes col3-box2 {
+  0% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  10% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  11% {
+    background-color: brown;
+  }
+  70% {
+    background-color: brown;
+  }
+  71% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  80% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  81% {
+    background-color: brown;
+  }
+  100% {
+    background-color: brown;
+  }
+}
+.col3-box3 {
+  animation: col3-box3 10s linear infinite;
+}
+@keyframes col3-box3 {
+  0% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  1% {
+    background-color: brown;
+  }
+  10% {
+    background-color: brown;
+  }
+  11% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  20% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  21% {
+    background-color: brown;
+  }
+  100% {
+    background-color: brown;
+  }
+}
+/* col 4 ///////////////////////////////////////////////// */
+
+.col4-box1 {
+  animation: col4-box1 10s linear infinite;
+}
+@keyframes col4-box1 {
+  0% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  1% {
+    background-color: brown;
+  }
+  10% {
+    background-color: brown;
+  }
+  11% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  20% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  21% {
+    background-color: brown;
+  }
+  30% {
+    background-color: brown;
+  }
+  31% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  60% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  61% {
+    background-color: brown;
+  }
+  70% {
+    background-color: brown;
+  }
+  71% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  80% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  81% {
+    background-color: brown;
+  }
+  90% {
+    background-color: brown;
+  }
+  91% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  100% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+}
+.col4-box2 {
+  animation: col2-box2 10s linear infinite;
+}
+
+.col4-box3 {
+  animation: col4-box3 10s linear infinite;
+}
+@keyframes col4-box3 {
+  0% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  1% {
+    background-color: brown;
+  }
+  10% {
+    background-color: brown;
+  }
+  11% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  30% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  31% {
+    background-color: brown;
+  }
+  100% {
+    background-color: brown;
+  }
+}
+/* col 5 ///////////////////////////////////////////////// */
+
+.col5-box1 {
+  animation: col5-box1 10s linear infinite;
+}
+@keyframes col5-box1 {
+  0% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  1% {
+    background-color: brown;
+  }
+  40% {
+    background-color: brown;
+  }
+  41% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  50% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  51% {
+    background-color: brown;
+  }
+  70% {
+    background-color: brown;
+  }
+  71% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  80% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  81% {
+    background-color: brown;
+  }
+  90% {
+    background-color: brown;
+  }
+  91% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  100% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+}
+.col5-box2 {
+  animation: col5-box2 10s linear infinite;
+}
+@keyframes col5-box2 {
+  0% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  1% {
+    background-color: brown;
+  }
+  40% {
+    background-color: brown;
+  }
+  41% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  50% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  51% {
+    background-color: brown;
+  }
+  70% {
+    background-color: brown;
+  }
+  71% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  80% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  81% {
+    background-color: brown;
+  }
+  90% {
+    background-color: brown;
+  }
+  91% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+  100% {
+    background-color: rgba(165, 42, 42, 0.174);
+  }
+}
+.col5-box3 {
+  animation: col1-box1 10s linear infinite;
+}
